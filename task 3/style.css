@@ -1,0 +1,41 @@
+html body {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.page {
+    background-color: rgb(48, 51, 75);
+}
+
+header {
+    position: relative;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    top: 20px;
+}
+
+#back {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(107, 188, 189);
+}
+
+#back:hover {
+    font-size: 25px;
+}
+
+#trafficLight {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: rgb(10, 6, 6);
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: calc(50% - 50px);
+}
+
+
